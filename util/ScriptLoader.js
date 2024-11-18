@@ -13,10 +13,16 @@ loadScript("/util/GenerateNextID.js");
 loadScript("/util/Validate.js");
 loadScript("/util/CommonFunctions.js");
 
-loadScript("/models/Customer.js");
-loadScript("/models/Order.js");
+// loadScript("/models/Customer.js");
+// loadScript("/models/Order.js");
+// loadScript("/models/OrderDetail.js");
+// loadScript("/models/Item.js");
+// loadScript("/controllers/IndexController.js");
+
+loadScript("/models/customer.js");
+loadScript("/models/order.js");
 loadScript("/models/OrderDetail.js");
-loadScript("/models/Item.js");
+loadScript("/models/item.js");
 loadScript("/controllers/IndexController.js");
 
 loadScript("/controllers/HomeController.js");
